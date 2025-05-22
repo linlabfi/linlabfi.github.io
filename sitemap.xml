@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:urlset xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<ns0:urlset xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <ns0:url>
         <ns0:loc>https://www.linlab.fi/</ns0:loc>
         <ns0:priority>1.00</ns0:priority>
@@ -13,22 +10,19 @@
         <ns0:loc>https://www.linlab.fi/rakennusalan-projektinjohto</ns0:loc>
         <ns0:priority>0.80</ns0:priority>
         <ns0:changefreq>monthly</ns0:changefreq>
-        <html:link rel="alternate" hreflang="fi"
-            href="https://www.linlab.fi/rakennusalan-projektinjohto" />
+        <html:link rel="alternate" hreflang="fi" href="https://www.linlab.fi/rakennusalan-projektinjohto" />
     </ns0:url>
     <ns0:url>
         <ns0:loc>https://www.linlab.fi/rakennusalan-projektinjohto</ns0:loc>
         <ns0:priority>0.80</ns0:priority>
         <ns0:changefreq>monthly</ns0:changefreq>
-        <html:link rel="alternate" hreflang="fi"
-            href="https://www.linlab.fi/rakennusalan-projektinjohto" />
+        <html:link rel="alternate" hreflang="fi" href="https://www.linlab.fi/rakennusalan-projektinjohto" />
     </ns0:url>
     <ns0:url>
         <ns0:loc>https://www.linlab.fi/vastaavan-tyonjohtajan-ja-paasuunnittelijan-palvelut</ns0:loc>
         <ns0:priority>0.80</ns0:priority>
         <ns0:changefreq>monthly</ns0:changefreq>
-        <html:link rel="alternate" hreflang="fi"
-            href="https://www.linlab.fi/vastaavan-tyonjohtajan-ja-paasuunnittelijan-palvelut" />
+        <html:link rel="alternate" hreflang="fi" href="https://www.linlab.fi/vastaavan-tyonjohtajan-ja-paasuunnittelijan-palvelut" />
     </ns0:url>
     <ns0:url>
         <ns0:loc>https://www.linlab.fi/asiantuntijalausunnot</ns0:loc>
