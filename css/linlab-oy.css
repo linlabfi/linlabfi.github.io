@@ -582,9 +582,9 @@ strong {
 }
 
 .contact-icon {
-  color: var(--accent);
   width: 36px;
   height: 36px;
+  color: var(--accent);
 }
 
 .text-field {
@@ -823,9 +823,9 @@ strong {
 }
 
 .value-image {
-  color: var(--accent);
   width: 48px;
   height: 48px;
+  color: var(--accent);
   margin-bottom: 24px;
 }
 
@@ -834,9 +834,9 @@ strong {
 }
 
 .contact-icon-home {
-  color: var(--accent);
   width: 32px;
   height: 32px;
+  color: var(--accent);
   margin-bottom: 8px;
 }
 
@@ -1130,6 +1130,170 @@ strong {
   display: none;
 }
 
+.popup-content-wrapper---brix {
+  z-index: 100;
+  border-radius: 32px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 3px 14px #4a3aff29, 0 -2px 4px #14142b1f, 0 12px 44px #14142b57;
+}
+
+.popup-content-wrapper---brix.popup-4-content-wrapper---brix {
+  width: 800px;
+  box-shadow: none;
+  border-radius: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.popup-4---illustration---brix {
+  object-fit: cover;
+  width: 100%;
+  height: 130%;
+  position: relative;
+}
+
+.popup-form-block---brix {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.popup-4---brix {
+  text-align: left;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 55%;
+  padding: 58px 48px;
+  display: flex;
+  position: relative;
+}
+
+.success-message---brix {
+  color: #fff;
+  background-color: #4a3aff;
+  border-radius: 16px;
+}
+
+.popup-title---brix {
+  margin-bottom: 8px;
+}
+
+.popup-4-form---brix {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+}
+
+.close-popup---brix {
+  cursor: pointer;
+  transition: transform .2s;
+  position: absolute;
+  inset: 24px 24px auto auto;
+}
+
+.close-popup---brix:hover {
+  transform: scale(.9);
+}
+
+.error-message---brix {
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.subscribe-button---brix {
+  color: #fff;
+  text-align: center;
+  background-color: #4a3aff;
+  background-image: none;
+  border-radius: 80px;
+  padding: 16px 32px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  transition: transform .3s, box-shadow .3s, background-color .3s;
+  position: absolute;
+  inset: auto 12px auto auto;
+  box-shadow: 0 3px 12px #4a3aff1f;
+}
+
+.subscribe-button---brix:hover {
+  background-color: #3527d8;
+  transform: translate(0, -2px);
+  box-shadow: 0 4px 10px #4a3aff26;
+}
+
+.subscribe-button---brix.ebook-button---brix {
+  background-color: var(--accent);
+  background-image: none;
+  border-radius: 0;
+  margin-top: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: static;
+}
+
+.input---brix {
+  color: #111;
+  border: 1px solid #eff0f6;
+  border-radius: 0;
+  min-height: 60px;
+  margin-bottom: 0;
+  padding: 30px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  transition: color .2s, border-color .2s;
+}
+
+.input---brix:focus {
+  border-color: #ed5522;
+}
+
+.input---brix::placeholder {
+  color: #747474;
+}
+
+.input---brix.mg-bottom-16 {
+  margin-bottom: 16px;
+}
+
+.overlay---brix {
+  z-index: 10;
+  background-color: #00000082;
+  position: absolute;
+  inset: 0%;
+}
+
+.popup-wrapper---brix {
+  z-index: 99999;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.popup-wrapper---brix.preview-page {
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 1000vh;
+  padding-top: 100px;
+  display: none;
+  position: sticky;
+  inset: 0%;
+}
+
+.popup-4-image-wrapper---brix {
+  align-items: center;
+  max-width: 45%;
+  display: flex;
+}
+
 @media screen and (min-width: 1280px) {
   .service-wrapper {
     grid-column-gap: 100px;
@@ -1148,6 +1312,11 @@ strong {
 
   .post-image-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .popup-content-wrapper---brix.popup-4-content-wrapper---brix {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1338,6 +1507,30 @@ strong {
     grid-column-gap: 40px;
     margin-top: 60px;
   }
+
+  .popup-content-wrapper---brix {
+    width: auto;
+  }
+
+  .popup-content-wrapper---brix.popup-4-content-wrapper---brix {
+    width: 600px;
+    max-width: none;
+    max-height: none;
+  }
+
+  .popup-4---brix {
+    padding-left: 40px;
+    padding-right: 64px;
+  }
+
+  .subscribe-button---brix.ebook-button---brix {
+    background-position: 78%;
+  }
+
+  .popup-wrapper---brix.preview-page {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1494,6 +1687,36 @@ strong {
 
   .contact-grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .popup-content-wrapper---brix.popup-4-content-wrapper---brix {
+    flex-direction: column;
+    width: 500px;
+    left: 0;
+    right: 0;
+  }
+
+  .popup-4---brix {
+    max-width: 100%;
+    padding: 32px 24px;
+  }
+
+  .subscribe-button---brix {
+    background-position: 67% 52%;
+    width: 100%;
+    min-height: 66px;
+    line-height: 18px;
+    position: static;
+  }
+
+  .popup-wrapper---brix {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .popup-4-image-wrapper---brix {
+    max-width: 100%;
+    max-height: 300px;
   }
 }
 
@@ -1755,6 +1978,55 @@ strong {
 
   .show-mobile {
     display: block;
+  }
+
+  .popup-content-wrapper---brix {
+    border-radius: 24px;
+  }
+
+  .popup-content-wrapper---brix.popup-4-content-wrapper---brix {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .popup-4---illustration---brix {
+    height: 260px;
+  }
+
+  .popup-4---brix {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 32px 24px;
+  }
+
+  .popup-title---brix {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .subscribe-button---brix {
+    text-align: center;
+    background-position: 247px;
+    padding: 15px 34px 16px 38px;
+  }
+
+  .subscribe-button---brix.ebook-button---brix {
+    background-position: 85%;
+  }
+
+  .popup-wrapper---brix {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .popup-wrapper---brix.preview-page {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .popup-4-image-wrapper---brix {
+    justify-content: center;
   }
 }
 
