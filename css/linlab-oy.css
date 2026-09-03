@@ -1294,6 +1294,16 @@ strong {
   display: flex;
 }
 
+.image {
+  object-fit: contain;
+  object-position: 0% 50%;
+  max-width: none;
+  height: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
 @media screen and (min-width: 1280px) {
   .service-wrapper {
     grid-column-gap: 100px;
@@ -2027,6 +2037,7 @@ strong {
 
   .popup-4-image-wrapper---brix {
     justify-content: center;
+    display: none;
   }
 }
 
